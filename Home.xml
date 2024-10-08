@@ -1,0 +1,454 @@
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/some_id"
+  android:layout_width="390dp"
+  android:layout_height="844dp"
+  android:clipToOutline="true"
+  android:background="#FFFFFF"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/statusbar"
+  android:layout_width="390dp"
+  android:layout_height="47dp"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentTop="true"
+  android:clipToOutline="true"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/homeindicat"
+  android:layout_width="0dp"
+  android:layout_height="34dp"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentRight="true"
+  android:layout_alignParentBottom="true"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<View
+  android:id="@+id/line_1"
+  android:layout_width="390dp"
+  android:layout_height="0dp"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="742dp"
+  android:background="@drawable/line_1"
+ />
+  
+<!-- drawable/line_1.xml -->
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:width="391dp"
+  android:height="1dp"
+  android:viewportWidth="391"
+  android:viewportHeight="1"
+ >
+<group>
+<clip-path
+  android:pathData="M0.5 0.5H390.501H0.5Z"
+/>
+</group>
+<path
+  android:pathData="M0.5 0.5H390.501H0.5Z"
+  android:strokeWidth="1"
+  android:strokeColor="#D1D1D1"
+/>
+</vector>
+
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_gen"
+  android:layout_width="26dp"
+  android:layout_height="26dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="48dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="769dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_int"
+  android:layout_width="26dp"
+  android:layout_height="26dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="180dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="769dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/fi_rr_utens"
+  android:layout_width="0dp"
+  android:layout_height="0dp"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentRight="true"
+  android:layout_alignParentTop="true"
+  android:layout_alignParentBottom="true"
+  android:clipToOutline="true"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_int"
+  android:layout_width="26dp"
+  android:layout_height="26dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="312dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="769dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<View
+  android:id="@+id/line_1"
+  android:layout_width="390dp"
+  android:layout_height="0dp"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="134dp"
+  android:background="@drawable/line_1"
+ />
+  
+<!-- drawable/line_1.xml -->
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:width="391dp"
+  android:height="1dp"
+  android:viewportWidth="391"
+  android:viewportHeight="1"
+ >
+<group>
+<clip-path
+  android:pathData="M0.5 0.5H390.501H0.5Z"
+/>
+</group>
+<path
+  android:pathData="M0.5 0.5H390.501H0.5Z"
+  android:strokeWidth="1"
+  android:strokeColor="#D1D1D1"
+/>
+</vector>
+
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<TextView
+  android:id="@+id/some_id"
+  android:layout_width="142dp"
+  android:layout_height="25dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="31dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="90dp"
+  android:text="@string/some_id"
+  android:textAppearance="@style/some_id"
+  android:lineSpacingExtra="2sp"
+  android:translationY="-0.82sp"
+  android:gravity="center_horizontal|top"
+ />
+<!--
+  Font family: Inter
+  Line height: 21sp
+  translationY compensates for the line height adjustment of text
+  -->
+  
+<!-- styles.xml -->
+<style name="some_id">
+<item name="android:textSize">16sp</item>
+<item name="android:letterSpacing">-0.02</item>
+<item name="android:textColor">#000000</item>
+</style>
+  
+<!-- strings.xml -->
+<string name="some_id">
+  \u00eb\u0082\u0098\u00ec\u009d\u0098 \u00eb\u0083\u0089\u00ec\u009e\u00a5\u00ea\u00b3\u00a0
+</string>
+
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_gen"
+  android:layout_width="26dp"
+  android:layout_height="26dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="30dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="87dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_sta"
+  android:layout_width="26dp"
+  android:layout_height="26dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="295dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="87dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_int"
+  android:layout_width="25dp"
+  android:layout_height="25dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="338dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="87dp"
+ />
+
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/frame_1"
+  android:layout_width="326dp"
+  android:layout_height="223dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="30dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="181dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<View
+  android:id="@+id/rectangle_1"
+  android:layout_width="326dp"
+  android:layout_height="223dp"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentTop="true"
+  android:background="@drawable/rectangle_1"
+  android:elevation="30dp"
+ />
+  
+<!-- drawable/rectangle_1.xml -->
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:width="326dp"
+  android:height="223dp"
+  android:viewportWidth="326"
+  android:viewportHeight="223"
+ >
+<group>
+<clip-path
+  android:pathData="M25 0H301C314.807 0 326 11.1929 326 25V198C326 211.807 314.807 223 301 223H25C11.1929 223 0 211.807 0 198V25C0 11.1929 11.1929 0 25 0Z"
+/>
+<path
+  android:pathData="M0 0V223H326V0"
+  android:fillColor="#FFFFFF"
+/>
+<path
+  android:pathData="M25 0H301C314.807 0 326 11.1929 326 25V198C326 211.807 314.807 223 301 223H25C11.1929 223 0 211.807 0 198V25C0 11.1929 11.1929 0 25 0Z"
+  android:strokeWidth="2"
+  android:strokeColor="#D1D1D1"
+/>
+</group>
+</vector>
+
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<TextView
+  android:id="@+id/some_id"
+  android:layout_width="246dp"
+  android:layout_height="20dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="40dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="112dp"
+  android:text="@string/some_id"
+  android:textAppearance="@style/some_id"
+  android:lineSpacingExtra="2sp"
+  android:translationY="-0.82sp"
+  android:gravity="center_horizontal|top"
+ />
+<!--
+  Font family: Inter
+  Line height: 21sp
+  translationY compensates for the line height adjustment of text
+  -->
+  
+<!-- styles.xml -->
+<style name="some_id">
+<item name="android:textSize">16sp</item>
+<item name="android:letterSpacing">-0.02</item>
+<item name="android:textColor">#D1D1D1</item>
+</style>
+  
+<!-- strings.xml -->
+<string name="some_id">
+  \u00ec\u009e\u00ac\u00eb\u00a3\u008c\u00eb\u00a5\u00bc \u00ec\u00b6\u0094\u00ea\u00b0\u0080\u00ed\u0095\u00b4\u00eb\u00b3\u00b4\u00ec\u0084\u00b8\u00ec\u009a\u0094!
+</string>
+
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<TextView
+  android:id="@+id/some_id"
+  android:layout_width="84dp"
+  android:layout_height="20dp"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="25dp"
+  android:text="@string/some_id"
+  android:textAppearance="@style/some_id"
+  android:lineSpacingExtra="2sp"
+  android:translationY="-0.82sp"
+  android:gravity="center_horizontal|top"
+ />
+<!--
+  Font family: Inter
+  Line height: 21sp
+  translationY compensates for the line height adjustment of text
+  -->
+  
+<!-- styles.xml -->
+<style name="some_id">
+<item name="android:textSize">16sp</item>
+<item name="android:letterSpacing">-0.02</item>
+<item name="android:textColor">#000000</item>
+</style>
+  
+<!-- strings.xml -->
+<string name="some_id">
+  \u00eb\u0083\u0089\u00eb\u008f\u0099\u00ec\u008b\u00a4
+</string>
+
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_int"
+  android:layout_width="24dp"
+  android:layout_height="24dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="62dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="25dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_int"
+  android:layout_width="26dp"
+  android:layout_height="26dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="281dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="20dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/frame_2"
+  android:layout_width="326dp"
+  android:layout_height="266dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="30dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="435dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<View
+  android:id="@+id/rectangle_2"
+  android:layout_width="326dp"
+  android:layout_height="266dp"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentTop="true"
+  android:background="@drawable/rectangle_2"
+  android:elevation="30dp"
+ />
+  
+<!-- drawable/rectangle_2.xml -->
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:width="326dp"
+  android:height="266dp"
+  android:viewportWidth="326"
+  android:viewportHeight="266"
+ >
+<group>
+<clip-path
+  android:pathData="M25 0H301C314.807 0 326 11.1929 326 25V241C326 254.807 314.807 266 301 266H25C11.1929 266 0 254.807 0 241V25C0 11.1929 11.1929 0 25 0Z"
+/>
+<path
+  android:pathData="M0 0V266H326V0"
+  android:fillColor="#FFFFFF"
+/>
+<path
+  android:pathData="M25 0H301C314.807 0 326 11.1929 326 25V241C326 254.807 314.807 266 301 266H25C11.1929 266 0 254.807 0 241V25C0 11.1929 11.1929 0 25 0Z"
+  android:strokeWidth="2"
+  android:strokeColor="#D1D1D1"
+/>
+</group>
+</vector>
+
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<TextView
+  android:id="@+id/some_id"
+  android:layout_width="84dp"
+  android:layout_height="20dp"
+  android:layout_alignParentLeft="true"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="26dp"
+  android:text="@string/some_id"
+  android:textAppearance="@style/some_id"
+  android:lineSpacingExtra="2sp"
+  android:translationY="-0.82sp"
+  android:gravity="center_horizontal|top"
+ />
+<!--
+  Font family: Inter
+  Line height: 21sp
+  translationY compensates for the line height adjustment of text
+  -->
+  
+<!-- styles.xml -->
+<style name="some_id">
+<item name="android:textSize">16sp</item>
+<item name="android:letterSpacing">-0.02</item>
+<item name="android:textColor">#000000</item>
+</style>
+  
+<!-- strings.xml -->
+<string name="some_id">
+  \u00eb\u0083\u0089\u00ec\u009e\u00a5\u00ec\u008b\u00a4
+</string>
+
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_int"
+  android:layout_width="24dp"
+  android:layout_height="24dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="62dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="26dp"
+ />
+
+ <!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/outline_int"
+  android:layout_width="26dp"
+  android:layout_height="26dp"
+  android:layout_alignParentLeft="true"
+  android:layout_marginLeft="281dp"
+  android:layout_alignParentTop="true"
+  android:layout_marginTop="21dp"
+ />
